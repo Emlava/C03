@@ -17,9 +17,9 @@ int	ft_strncmp(char *s1, char *s2, unsigned int n)
 
 int	main(void)
 {
-	unsigned char str1[] = "Understandable"; // r = 114
-	unsigned char str2[] = "Undesirable";    // s = 115
-	int n = 7; // 4 or less = 0, 5 or more = -1
+	unsigned char str1[] = "AB";
+	unsigned char str2[] = "ABC";    // C = 67
+	int n = 3; // 2 or less = 0, 3 or more = -67
 
 	printf("%d\n", ft_strncmp(str1, str2, n));
 	return (0);
